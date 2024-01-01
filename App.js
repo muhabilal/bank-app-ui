@@ -8,11 +8,11 @@ import { useColorScheme } from 'nativewind';
 import { useFonts } from 'expo-font';
 export default function App() {
   const { colorScheme, toggleColorScheme } = useColorScheme();
-  const [fontsLoaded, fontError] = useFonts({
-    SpaceGroteskSemiBold: require("./src/font/SpaceGrotesk-SemiBold.ttf"),
-    SpaceGroteskBold: require("./src/font/SpaceGrotesk-Bold.ttf"),
-    SpaceGroteskMedium: require("./src/font/SpaceGrotesk-Medium.ttf"),
-  });
+  // const [fontsLoaded, fontError] = useFonts({
+  //   SpaceGroteskSemiBold: require("./src/fonts/SpaceGroteskSemiBold.ttf"),
+  //   SpaceGroteskBold: require("./src/font/SpaceGrotesk-Bold.ttf"),
+  //   SpaceGroteskMedium: require("./src/font/SpaceGrotesk-Medium.ttf"),
+  // });
   return (
     <SafeAreaView className="p-6 dark:bg-neutral-900">
       <StatusBar style='auto' />
